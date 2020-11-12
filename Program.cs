@@ -8,7 +8,7 @@ using System.IO;
 namespace Inlämningsuppgift_2
 {
     /*Class: Person
-     *Purpose: Is used in all methods to access contact list 
+     *Purpose: Is used in methods to access contact list 
      */
     class Person
     {
