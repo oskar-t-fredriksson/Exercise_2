@@ -36,6 +36,10 @@ namespace Inlämningsuppgift_2
             Console.Write("  4. ange email:   ");
             email = Console.ReadLine();
         }
+        /*Method: Print
+         *Purpose: To list all existing contacts
+         *Return value: Reads all contacts listed in 'Person'
+         */
         public void Print()
         {
             Console.WriteLine("{0}, {1}, {2}, {3}", name, address, phone, email);
@@ -130,19 +134,6 @@ namespace Inlämningsuppgift_2
                 Console.Write("Vad vill du ändra {0} på {1} till: ", fieldToChange, wantToChange);
                 string newValue = Console.ReadLine();
                 Dict[found].ChangeValue(fieldToChange, newValue);
-            }
-        }
-        /*Method: ShowMethod (static)
-         *Purpose: To show existing contacts
-         *Parameters: 'Dict' is containging all the contacts
-         *Return value: Returns all the contacts listed under the indexes
-         */
-        private static void ShowMethod(List<Person> Dict)
-        {
-            for (int i = 0; i < Dict.Count(); i++)
-            {
-                Person P = Dict[i];
-                Console.WriteLine("{0}, {1}, {2}, {3}", P.name, P.address, P.phone, P.email);
             }
         }
         /*Method: DeleteMethod (static)
