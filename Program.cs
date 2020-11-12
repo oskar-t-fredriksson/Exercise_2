@@ -15,7 +15,7 @@ namespace Inlämningsuppgift_2
         public string name, address, phone, email;
         /*Constructor: Person
          *Purpose: Creates object Person
-         *Parameters: N = set name, A = set address, T = set phone, E = set email
+         *Parameters: 'N' = set 'name', 'A' = set 'address', 'T' = set 'phone', 'E' = set 'email'
          */
         public Person(string N, string A, string T, string E)
         {
@@ -107,7 +107,7 @@ namespace Inlämningsuppgift_2
         }
         /*Method: ChangeMethod (static)
          *Purpose: To change existing contacts
-         *Parameters: Dict is containging all the contacts
+         *Parameters: 'Dict' is containging all the contacts
          *Return value: Sends back input to the object Person
          */
         private static void ChangeMethod(List<Person> Dict)
@@ -134,7 +134,7 @@ namespace Inlämningsuppgift_2
         }
         /*Method: ShowMethod (static)
          *Purpose: To show existing contacts
-         *Parameters: Dict is containging all the contacts
+         *Parameters: 'Dict' is containging all the contacts
          *Return value: Returns all the contacts listed under the indexes
          */
         private static void ShowMethod(List<Person> Dict)
@@ -147,7 +147,7 @@ namespace Inlämningsuppgift_2
         }
         /*Method: DeleteMethod (static)
          *Purpose: To delete a specific existing contact
-         *Parameters: Dict is containging all the contacts
+         *Parameters: 'Dict' is containging all the contacts
          *Return value: Returns which index is supposed to be deleted
          */
         private static void DeleteMethod(List<Person> Dict)
